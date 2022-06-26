@@ -4,9 +4,18 @@ body{
     url(../img/background.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: right;
     display: flex;
     flex-direction: column;
     padding: 80px 128px 50px  128px;
+}
+@media (max-width:768px){
+    body{
+            padding: 30px 30px 25px 30px;
+            background-image: url(../img/background.png) ;
+            background-color: #0009;
+            background-blend-mode: darken;
+    }
 }
 
 
